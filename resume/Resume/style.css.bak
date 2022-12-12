@@ -1,0 +1,168 @@
+* {
+    font-family: Monospace;
+}
+
+.topbar {
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-right: 70px;
+    display: flex;
+    background-color: #BFBFBF;
+}
+
+.foot {
+    margin-left: 70px;
+    padding-top: 0%;
+    font-size: larger;
+    text-align: center;
+    margin-right: 70px;
+    color: white;
+    background-color: #BFBFBF;
+}
+
+.content {
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-right: 70px;
+    display: flex;
+    background-color: white;
+
+    font-size: large;
+}
+
+.prof {
+    padding: 20px 20px 20px 30px;
+}
+
+#cont {
+    margin-left: 300px;
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
+
+}
+
+#cont ul li {
+    line-height: 2em;
+}
+
+.nam {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.right {
+    border-style: solid;
+    border-color: #000000;
+    background-color: #E7F7F4;
+    padding: 10px 70px 10px 10px;
+    font-size: 1em;
+}
+
+.right h2 {
+    font-size: larger;
+}
+
+.right {
+    font-size: 25px;
+}
+
+.left h2 {
+    font-size: 28px;
+}
+
+.left {
+    font-size: 25px;
+}
+
+th,
+td {
+    border-style: none;
+    padding: 10px;
+}
+
+.det p {
+    font-size: 1em;
+}
+
+.left {
+    width: 450px;
+    background-color:#474747;
+    color: white;
+    padding-right: 50px;
+}
+
+.left ul li {
+    line-height: 1.7em;
+    padding: 5px;
+}
+
+.leftc {
+    padding: 10px;
+}
+
+.right ul li {
+    line-height: 1.5em;
+}
+
+.topbar a {
+    background-image: linear-gradient(to right, #8FEBD5, #8FEBD5 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.right a {
+    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+a:before {
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.topbar a:before {
+    content: "";
+    background: #8FEBD5;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-position: 0;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.contlink li {
+    display: block;
+}

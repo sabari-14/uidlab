@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="css.css">
+  </head>
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <header>
+      <body>
+        <script src="jv.js"></script>
+      <div id="border">   <!--border-->
+        
+        <div id="emi-calculation">    <!--calculation part-->
+          
+          <p id="title"><strong>EMI Calculator<strong></p> 
+            
+            <div class="section">         <!--loan amount with input-->
+              <label id="loanamount" class="label">Loan Amount:(USD)</label>
+              <input type="number" class="input" id="value1" placeholder="Enter Loan amount.."></input>
+            </div>                        <!--loan amount with input closing-->
+            
+            <div class="section">   <!--interest rate with input-->
+               <label id="interestrate" class="label">Interest Rate:(%)</label>
+              <input type="number" class="input" id="value2" placeholder="Enter IR per year.."></input>
+            </div>              <!--interest rate with input closing-->
+            
+            <div class="section"> <!--loan terms with input-->
+               <label id="loanduration" class="label">Loan Duration(Months):</label>
+              <input type="number" class="input" id="value3" placeholder="Enter loan duration.."></input>
+            </div>   <!--loan terms with input closing-->
+            <tr>
+              <!-- display() function displays the value of clicked button -->
+              <td> <input type="button" value="1" onclick="display('1')" /> </td>
+              <td> <input type="button" value="2" onclick="display('2')" /> </td>
+              <td> <input type="button" value="3" onclick="display('3')" /> </td>
+          </tr>
+          <tr>
+              <td> <input type="button" value="4" onclick="display('4')" /> </td>
+              <td> <input type="button" value="5" onclick="display('5')" /> </td>
+              <td> <input type="button" value="6" onclick="display('6')" /> </td>
+          </tr>
+          <tr>
+              <td> <input type="button" value="7" onclick="display('7')" /> </td>
+              <td> <input type="button" value="8" onclick="display('8')" /> </td>
+              <td> <input type="button" value="9" onclick="display('9')" /> </td>
+          </tr>
+          <tr>
+        
+       
+     
+      <div class="submit">           <!--button-->
+     <button type="submit" id="calc" onclick="calculation()">Calculate</button>
+      </div>                          <!--button closing-->
+      
+        </div>    <!--Calculation part closing-->
+        
+        <div id="emi-output">
+          <div class="result">Monthly Interest: <span id="monthly-interest"></span>
+          </div>
+          <div class="result">Monthly Payment: <span id="monthly-payment"></span>
+          </div>
+          <div class="result">Total Repayment: <span id="total-repayment"></span>
+          </div>
+          <div class="result">Total Interest Cost: <span id="total-interest"></span>
+          </div>
+          
+        <div class="submit">           <!--button-->
+     <button type="submit" id="reset" onclick="reset()">Reset</button>
+      </div>                          <!--button closing-->  
+          
+        </div>
+      
+      </div> <!--border closing-->
+    </body>
+</html>

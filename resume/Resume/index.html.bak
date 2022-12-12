@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body bgcolor="#E5E5E5">
+    <div class="resume">
+        <div class="topbar">
+            <img src="1.jpeg" height="250px" width="200px" class="prof">
+            <div class="nam">
+                <h2>SABARISHWARAN S</h2>
+                <h3>Cyber Secuirty Aspirant</h3>
+                <p style="line-height:1.5em">649,Royal Avenue<br>madeswaran nagar,Ganapathipalayam<br>Tirupur-641605</p>
+            </div>
+            <div id="cont">
+                <h3>Contact Details :</h3>
+                <ul class="contlink">
+                    <li><i class="fa fa-phone"></i>&nbsp;&nbsp;Phone No : 9442281866</li>
+                    <li><i class="fa fa-envelope"></i>&nbsp;&nbsp;Mail ID :<a href="https://sabarishwaranswaminathan@gmail.com/"> sabarishwaranswaminathan@gmail.com</a></li>
+                    <li><i class="fa fa-github"></i>&nbsp;&nbsp;GitHub ID : <a href="https://github.com/sabari-14
+                            style="color:white;text-decoration: none;">sabari-14</a></li>
+                    <li><i class="fa fa-linkedin"></i>&nbsp;&nbsp;Linkedin ID : <a
+                            href="https://www.linkedin.com/in/sabarishwaran-s-620514249/
+                            style="color:white;text-decoration: none;">sabarishwaran s</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="leftc">
+                    <h2>Languages Known</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Tamil</li>
+                    </ul>
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>MatLab</li>
+                    </ul>
+                    <h2>Scripting Languages</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Watching Movies</li>
+                        <li>Running Marathon</li>
+						<li>Playing Basketball</li>
+                        <li>Learning</li>
+                        <li>Listening Music</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Objective : </h2>
+                <p>Recent graduate with experience in information technology and specialization in data management
+                    looking for a
+                    junior cybersecurity position to use coding and research skills.</p>
+                <h2>Education : </h2>
+                <center>
+                    <table border="2px" style="text-align:center;border-style:groove;">
+                        <tr>
+                            <td>Course</td>
+                            <td>Institution</td>
+                            <td>Year</td>
+                            <td>Percentile</td>
+                        </tr>
+                        <tr>
+                            <td>B.Tech - Computer Science (CYS)</td>
+                            <td>Amrita Vishwa Vidhyapeetham , Chennai Campus</td>
+                            <td>2021 - 2025</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Senior Secondary School</td>
+                            <td>Kathir Vidhya Mandhir</td>
+                            <td>2020 - 2021</td>
+                            <td>86.8 %</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary School</td>
+                            <td>Vidhyasagar International public</td>
+                            <td>2019 - 2020</td>
+                            <td>91.6 %</td>
+                        </tr>
+                    </table>
+                </center>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Coding</li>
+                    <li>Web Development</li>
+                    <li>Networking</li>
+                    <li>Cryptography</li>
+                    <li>Data Structures</li>
+                </ul>
+                <h2>Achievements : </h2>
+                <ul style="list-style:none;">
+                    <li>TechnoBytes Ethical Hacking WorkShop <a href="tbws.html"> View Certificate</a></li>
+                    <li>Amrita CyberNation Cyber Conclave &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                            href="D:\SEM-3\SEM3\UID\resume\Resume\concave.html">View Certificate</a></li>
+                    <li>Amrita CyberNation Industry Meet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                            href="D:\SEM-3\SEM3\UID\resume\Resume\concave.html">View Certificate</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <footer class="foot">
+            <p style="padding: 10px;">Find me on social media.</p>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p></p><br>
+        </footer>
+    </div>
+
+</body>
+
+</html>
