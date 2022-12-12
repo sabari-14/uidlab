@@ -1,0 +1,93 @@
+
+<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/9/9f/Logo_of_Techfest%2CIIT_Bombay.jpg">
+<title>REGISTRATION</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: darkblue;
+  }
+</style>
+
+<body bgcolor="powderblue">
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li style="float:right"><a href="contact.html">Contact</a></li>
+    <li style="float:right"><a href="login.html">Login</a></li>
+    <li style="float:right"><a href="register.html"class="active" >Register</a></li>
+
+  </ul>
+<body >
+
+<center><h1><b>REGISTRATION PAGE</b></h1>
+<form method="post" action="registers.php"  name="myform">
+  <b>Username:</b>
+  <input type="text" name="username" minlength=6 >
+  <br>
+  <br>
+ <b> Password:</b>
+  <input type="password" name="password" minlength=6 >
+  <br>
+  <br>
+<b>Email-id:</b>
+ <input type="text" name="email" >
+  <br>
+  <br>
+ <b>Phone no:</b>
+ <input type="text" name="phone" maxlength="10" >
+  <br><br>
+<b>Date of Birth :</b>
+<input type="date" name="dob" value="calendar">
+<br><br>
+<b> Nationality  :  </b>
+<select class="nation" name="nationality">
+     <option value="none" selected disabled hidden>Select Country</option>
+     <option value="IND">India</option>
+     <option value="PAK">Pakistan</option>
+     <option value="US">USA</option>
+     <option value="Can">Cannada</option>
+     <option value="AUS">Australia</option>
+   </select>
+   <br><br>
+   <label>
+ <b>Gender </b> :
+ </label><br>
+ <input type="radio" value="Male" name="gender" checked > Male
+ <input type="radio" value="Female" name="gender"> Female
+ <input type="radio" value="Other" name="gender"> Other
+ <br><br>
+ <label><b> ID Proof  :</b></label>
+<input type="file" name="idproof">
+<br><br>
+<input type="submit" value="Submit">
+ </center>

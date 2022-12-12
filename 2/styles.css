@@ -1,0 +1,16 @@
+.text-box{
+  position: absolute;
+  top: 0;
+  background: white;
+}
+
+.backgm{
+    background-image: url(pexel.jpeg);
+    background-size : cover;
+    height: 100vh;
+}
+.bg{
+  background-image: url(https://images.pond5.com/plexus-abstract-network-titles-technology-footage-099709612_iconl.jpeg);
+  background-size : cover;
+  height: 100vh;
+}

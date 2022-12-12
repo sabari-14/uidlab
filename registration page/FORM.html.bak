@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+	<head>
+	<meta charset="utf-8">
+		<Title>
+		Amrita Cyberfest
+		</Title>
+		<link rel="shortcut icon" href="Amrita_University_Logo.png">
+				<style>
+			body {
+			background-image:url('banner.jpg');
+			background-repeat: no-repeat;
+			 background-attachment: fixed;
+			background-size: 100% 100%;
+			}
+		</style>
+		</head>
+		<body> 
+		    <img src="Amrita_University_Logo.png" style="position:absolute;left:40%;height:100px">
+			
+
+	
+			
+				<p>SABARISHWARAN S <br> 21069</p>
+				<br><br><br><center>
+				<h3 style="color:#CD104D";>AMRITA CYBERNATION REGISTRATION</h3></center>
+		<br><br><br><br><br><table align="center" style="padding 100px 100px 100px 100px; background-color:#ffffffae;border-radius:10px">
+
+		<td><b>
+		Full Name:</b></td>
+		<td><input type="text" name "username" minlegth=3 placeholder="enter your name"></td>
+		</tr>
+<tr>
+		<td><b>Gender :</td>
+				<td><input type="radio" name="gender" value="Male"><label for="male"> Male</label>
+					<input type="radio" name="gender" value="Female"><label for="female"> Female</label>
+		</tr>
+<tr>
+                    <td><b><label for="dob">Date of Birth:</b></label></td>
+                    <td><input type="date" name="date" id="dob" required></td>
+                </tr>
+<tr>
+		<td><b>
+		Email:</b></td>
+		<td><input type="text" name "name" minlegth=3 placeholder="enter your mail address"></td>
+		</tr>
+<tr>
+		<td><b>
+		Phone Number:</b></td>
+		<td><input type="text" pattern="[0-9]{10}" minlegth=3 placeholder="Phone number" required></td>
+		</tr>		
+<tr>
+        <td><b><label for="psw">Password:</b></label></td>
+        <td> <input type="password" id="psw" name="psw" placeholder="Password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more 
+        characters" required>
+        </td>
+        </tr>
+<tr>
+        <td><b>Instution Name:</b></td>
+        <td><input type="text" name="college" placeholder="Amrita"></td>
+                </tr>
+<tr>
+        <td><b>Instution location:</b></td>
+        <td><input type="text" name="college" placeholder="Location"></td>
+                </tr>
+<tr>
+        <td><b>Events:</b></td>
+        <b><td><input type="checkbox" name="course" id="con">
+        <label for="con">Cyber concave '22 </label>
+        <input type="checkbox" name="course" id="meet">
+        <label for="meet">Cyber Industry Meet '22   </label><br>
+        <input type="checkbox" name="course" id="fest">
+        <label for="fest">Cyber Tech Fest '22</label>
+		<input type="checkbox" name="course" id="fest">
+        <label for="fest">Cyber Abhyam '22</label></b>
+        </td>
+           </tr>
+<tr>
+			<td><b>ID Proof :</b></td>
+			<td><input type="file" name="ID Proof"></td>
+			</tr>
+<tr>
+            <td>
+                        <input type="submit" name="Register">
+                        <input type="reset" name="reset" value="clear form">
+                    </td>
+                </tr>
+      <img src="scan.jpeg" style="left:80%;position:absolute;top:80%;height:120px;width:250px">
+				
+	</body>
+</html>
